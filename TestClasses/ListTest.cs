@@ -8,7 +8,11 @@ namespace TestClasses
 {
   public class ListTest
   {
+<<<<<<< HEAD
     public List<int> TestAddRange()
+=======
+    public List<int> Test()
+>>>>>>> aaa523f3e5f75d464f8152e378f3b29e709c5b70
     {
       Action<int> action = (i) => Console.WriteLine($"Hello Default Action...{i}");
       action += (i) => Console.WriteLine($"Hello FirstAction...{i}");
